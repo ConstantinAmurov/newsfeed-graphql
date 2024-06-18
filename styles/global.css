@@ -3,18 +3,27 @@ body {
   padding: 0;
   margin: 0;
   font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          Segoe UI,
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          Fira Sans,
+          Droid Sans,
+          Helvetica Neue,
+          sans-serif;
+
+  background: rgb(245, 245, 245);
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (max-width: 850px) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 a {
@@ -26,7 +35,11 @@ a {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+
